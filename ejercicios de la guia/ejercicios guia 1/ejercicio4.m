@@ -1,0 +1,13 @@
+display('matriz z')
+z=[3 12 8 9 17; 28 37 66 21 57; 42 11 0 -25 23; 72 -24 75 68 -9; 63 27 -43 23 77]
+display('ejercicio a:')
+a=z([1 2 3], 3)
+display('ejercicio b:')
+b=z([5 4 3 2 1], 1)
+display('ejercicio c:')
+c=z([5 4 3 2 1])
+display('(te lo tira como vector)')
+display('ejercicio d:')
+d=z([1; 2; 3; 4; 5])
+display('ejercicio e:')
+e=z(5,[5 4 3 2 1])

@@ -1,0 +1,17 @@
+disp('Obtenga el valor y la posici´on del maximo del vector v')
+v = [1.32 -4.23 7.25 0.42 9.38 -0.76 3.54 4.92 2.17 -3.38]
+[maximo,indice]=max(v);
+disp('el valor maximo es:'), disp( maximo)
+disp(indice)
+disp('Obtenga la suma de todos los elementos del vector v.')
+s=sum(v)
+disp('Obtenga el vector suma acumulativa del vector v.')
+x=cumsum(v)
+disp('Obtenga el valor medio (promedio) de los elementos del vector v.')
+m=mean(v)
+disp(' Obtenga la mediana de los elementos del vector v.')
+p=median(v)
+disp('Obtenga un vector con los valores de v ordenados de menor a mayor.')
+b=sort(v,'ascend')
+disp('Obtenga un vector con los valores de v ordenados de mayor a menor.')
+b=sort(v,'descend')

@@ -1,0 +1,10 @@
+disp('ejercicio 3c')
+ones(4,6)
+disp('ejercicio 3d')
+80*rand(6)-23
+disp('ejercicio 3e')
+100*randn(3,8)
+disp('ejercicio 3f')
+hilb(9)
+disp('ejercicio 3g')
+magic(7)
